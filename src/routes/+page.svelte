@@ -67,10 +67,10 @@
 
 		<div class="sm:divider sm:mt-16">
 			<a
-			href="{base}/participate"
+			href="{base}/registration"
 			class="btn btn-block sm:btn-wide btn-lg btn-primary mt-10 sm:mt-0 self-center"
 		>
-			Participate!
+			Registration!
 		</a>
 		</div>
 	</div>
