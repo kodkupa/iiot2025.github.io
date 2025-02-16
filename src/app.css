@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --iiot-turquoise: #6dc1c3;
+    --iiot-purple: #595bb4;
+    --iiot-gray: #a3a3a3;
+}
+
