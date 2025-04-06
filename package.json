@@ -1,11 +1,11 @@
 {
-	"name": "iiot",
+	"name": "iiot2025",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev --host",
-		"build": "vite build",
-		"preview": "vite preview",
+		"build": "vite build && echo iiot2025.hu > build/CNAME",
+		"preview": "vite preview",	
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
