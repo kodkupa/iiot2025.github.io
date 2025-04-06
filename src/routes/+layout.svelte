@@ -15,7 +15,7 @@
 	<Navigation />
 	<Up />
 
-	<main class="w-full grow flex flex-col items-center bg-base-100">
+	<main class="w-full grow flex flex-col items-center bg-base-100 pb-8">
 		<slot />
 	</main>
 
