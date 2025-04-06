@@ -14,7 +14,9 @@
 		<link rel="modulepreload" href="./_app/immutable/entry/app.e41885ef.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.109f2043.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/stores.7891f873.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/6.90e2d1f5.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/9.368d2f14.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Hero.6d4b8b14.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Content.19ed6d65.js"><title>Rules</title><!-- HEAD_svelte-y4z9bt_START --><!-- HEAD_svelte-y4z9bt_END -->
 </head>
 
 <body data-sveltekit-preload-data="hover" class="m-0 p-0 w-full h-full">
@@ -80,7 +82,49 @@
 </li></ul></div></div>
 	<button class="z-50 fixed top-4 right-0 ml-auto btn btn-neutral btn-sm btn-square rounded-r-none lg:!hidden hidden"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 fill-neutral-content" viewBox="0 0 448 512"><path d="M246.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 109.3 361.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160zm160 352l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 301.3 361.4 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3z"></path></svg></button>
 
-	<main class="w-full grow flex flex-col items-center bg-base-100 pb-8"></main>
+	<main class="w-full grow flex flex-col items-center bg-base-100 pb-8">
+
+<div class="hero h-fit min-h-[10rem] md:min-h-[13rem] lg:min-h-[16rem] py-8 bg-base-200 border-b-[1.5px] border-base-300 shadow-sm z-10"><div class="hero-content text-center"><h1 class="text-4xl lg:text-5xl text-base-content font-bold">Rules</h1></div></div>
+
+<div class="w-full grow max-w-4xl text-justify text-lg px-4 gap-2 py-8 flex flex-col bg-base-100"><p>The general rules of the competition are described in the <a href="https://iio.team/documents/Regulations.pdf" class="btn-link link-secondary">IIOT Regulations</a>.
+	</p>
+	<h2 class="text-2xl sm:divider">Technical rules</h2>
+	<ul class="list-disc"><li>Every team will be provided with 2 computers, each with one display, keyboard and mouse. Any
+			software on the computer can be used (see the Contest Environment page for more information
+			about the available software).
+		</li>
+		<li>Internet connection will be limited to accessing the grading system only.</li>
+		<li>Contestants are encouraged to bring their own keyboard (and mouse). However, it must not have
+			wireless communication capability and must not have any programmable functions whose
+			configuration is retained when unplugged. Own keyboards should be brought to the practice
+			session and left in the computer room. Only one keyboard per computer is allowed.
+		</li>
+		<li>In the competition room, blank paper, writing tools, snacks and water will be provided. On the
+			competition day, contestants may not bring anything into the competition rooms, except for the
+			following items: clothing, ID badge, writing utensils, small mascots, snacks, medicine and
+			medical equipment, earplugs and earmuffs.
+		</li>
+		<li>The only allowed programming language for submitting solutions is C++.</li>
+		<li>Problem statements will be in English. Each team receives one printed copy of the problem set,
+			and all problem statements will be available in the grading system.
+		</li></ul>
+	<h2 class="text-2xl sm:divider">Online participation rules</h2>
+	<ul class="list-disc"><li>Guest teams may participate online from another venue, however the team must be in one
+			location. The rules above should be respected (2 computers per team, limited internet access,
+			etc.)
+		</li>
+		<li>The competition venue should be supervised by at least one proctor throughout the contest.
+		</li>
+		<li>All the screens used by the contestants must be recorded with a minimal resolution of 720x1280
+			and at least 1 fps during the entire competition.
+		</li>
+		<li>Additionally one or more camera recordings must be made in the contest room such that all the
+			team members are visible on the recording. The recording should be saved with a starting
+			timestamp (or a clock must be visible on it).
+		</li>
+		<li>The recordings have to be submitted within 3 hours after the competition at a URL provided by
+			the organizers.
+		</li></ul></div></main>
 
 	<footer class="footer gap-6 footer-center p-10 bg-base-300 text-base-content"><div class="join join-vertical w-full xs:w-fit xs:join-horizontal gap-0"><a href="/iiot2025.github.io/images/logo-pack.zip" download class="join-item origin-right btn btn-sm xs:btn-md normal-case btn-outline border-neutral">Logo pack</a>
 			
@@ -108,7 +152,7 @@
 						import("./_app/immutable/entry/app.e41885ef.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 6],
+							node_ids: [0, 9],
 							data,
 							form: null,
 							error: null
