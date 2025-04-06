@@ -22,51 +22,45 @@
 	<a href="{base}/" class:font-bold={$page.route.id === `${base}/`} on:click={closeDrawer}>Home</a>
 </li>
 <li>
-	<a href="{base}/about" class:font-bold={$page.route.id === `${base}/about`} on:click={closeDrawer}
-		>About IIOT</a
-	>
-</li>
-<li>
 	<details bind:open={dropdownOpened} use:clickOutside on:outsideclick={closeDropdown}>
 		<summary class:font-bold={$page.route.id?.includes(`${base}/competition`)}>Competition</summary>
 		<ul class="p-2">
 			<li>
 				<a
 					href="{base}/environment"
-					class:font-bold={$page.route.id === `${base}/competition/environment`}
+					class:font-bold={$page.route.id === `${base}/environment`}
 					on:click={closeDrawer}>Environment</a
 				>
 			</li>
 			<li>
 				<a
-					href="{base}/documents/Regulations.pdf"
-					target="_blank"
+					href="{base}/rules"
+					class:font-bold={$page.route.id === `${base}/rules`}
 					on:click={closeDrawer}
-					class="gap-8 min-w-max"
 				>
-					Rules<i class="fa-solid fa-file-pdf ml-auto text-xl"></i>
+					Rules
 				</a>
 			</li>
 			<li />
 			<li>
 				<a
 					href="{base}/participants"
-					class:font-bold={$page.route.id === `${base}/competition/participants`}
+					class:font-bold={$page.route.id === `${base}/participants`}
 					on:click={closeDrawer}>Participants</a
 				>
 			</li>
 			<li></li>
 			<li>
 				<a
-					href="{base}/tasks/2023"
-					class:font-bold={$page.route.id === `${base}/competition/tasks/[year]`}
+					href="{base}/tasks"
+					class:font-bold={$page.route.id === `${base}/tasks`}
 					on:click={closeDrawer}>Tasks</a
 				>
 			</li>
 			<li>
 				<a
-					href="{base}/results/2024"
-					class:font-bold={$page.route.id === `${base}/competition/results/[year]`}
+					href="{base}/results"
+					class:font-bold={$page.route.id === `${base}/results`}
 					on:click={closeDrawer}>Results</a
 				>
 			</li>
