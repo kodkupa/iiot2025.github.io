@@ -17,7 +17,7 @@
 		>.
 	</p>
 	<h2 class="text-2xl sm:divider">Technical rules</h2>
-	<ul class="list-disc">
+	<ul class="list-disc ml-5 lg:m-0">
 		<li>
 			Every team will be provided with 2 computers, each with one display, keyboard and mouse. Any
 			software on the computer can be used (see the Contest Environment page for more information
@@ -43,7 +43,7 @@
 		</li>
 	</ul>
 	<h2 class="text-2xl sm:divider">Online participation rules</h2>
-	<ul class="list-disc">
+	<ul class="list-disc ml-5 lg:m-0">
 		<li>
 			Guest teams may participate online from another venue, however the team must be in one
 			location. The rules above should be respected (2 computers per team, limited internet access,
