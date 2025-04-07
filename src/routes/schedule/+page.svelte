@@ -17,7 +17,7 @@
 		and delegation members is April 30.
 	</p>
 	<h2 class="text-2xl sm:divider">Schedule for contest days</h2>
-	<p>A detailed schedule will be published at least two weeks before the contest.</p>
+	<p class="text-center">A detailed schedule will be published at least two weeks before the contest.</p>
 </Content>
 <div class="max-w-xl w-full flex flex-col text-center gap-4">
 	<Date>
