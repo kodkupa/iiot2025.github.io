@@ -18,14 +18,15 @@
 	</p>
 	<p>
 		<b>Compiler: </b>
-		Mingw-w64 GCC (xxx)
+		MinGW-W64 GCC (14.2.0)
 	</p>
 	<div>
 		<b>Text Editors and IDEs:</b>
 		<ul class="list-disc ml-12">
-			<li>CLion (xxx)</li>
-			<li>Code::Blocks (20.03) *</li>
-			<li>Visual Studio Code (1.58.2)</li>
+			<li>CLion (2024.3.4)</li>
+			<li>Code::Blocks (25.03) *</li>
+			<li>Visual Studio Code (1.69.2)</li>
+			<li>Visual Studio Community 2019</li>
 		</ul>
 	</div>
 	<p>

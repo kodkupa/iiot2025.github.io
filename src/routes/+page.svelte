@@ -24,7 +24,7 @@
 		>
 		(IIOT) is a prestigious computer programming competition for teams of high school students. The participants
 		are teams of four high school students representing their schools. The IIOT 2025 International finals
-		take place in Budapest from May 30 to June 2.
+		take place in Budapest from May 30 to June 3.
 	</p>
 	<p>
 		The seven regular member countries (Bulgaria, Egypt, Hungary, Italy, Romania, Syria, USA)

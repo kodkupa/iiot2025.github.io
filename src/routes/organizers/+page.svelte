@@ -19,7 +19,7 @@
 		</figure>
 		<div class="card-body pt-0">
 			<h2 class="card-title">Fazekas</h2>
-			<p>
+			<p class="text-justify">
 				The <a href="https://fazekas.hu/" class="btn-link link-secondary"
 					>Fazekas Mihály High School</a
 				> in Budapest is one of the pillars of talent education in our country. Year after year, its
@@ -36,7 +36,7 @@
 		</figure>
 		<div class="card-body pt-0">
 			<h2 class="card-title">Algo Pro Club</h2>
-			<p>
+			<p class="text-justify">
 				The <a href="https://algopro.hu/" class="btn-link link-secondary">Algo Pro Club</a> is the first
 				competitive programming association in our country. Their online programming courses range from
 				complete beginner to international competition level, with a strong emphasis on community building
@@ -52,7 +52,7 @@
 		</figure>
 		<div class="card-body pt-0">
 			<h2 class="card-title">NJSZT</h2>
-			<p>
+			<p class="text-justify">
 				Founded in 1968, the <a href="https://njszt.hu/" class="btn-link link-secondary"
 					>Neumann Society</a
 				> is a long-established non-profit scientific association. For more than 20 years, its Talent
@@ -64,7 +64,7 @@
 </div>
 <Content>
 	<h2 class="text-2xl sm:divider">Contact</h2>
-	<p>
+	<p class="text-center">
         Main organizer and international coordinator of IIOT: László Nikházy, <a
         href="mailto:iio.team@iio.team"
         class="btn-link link-secondary">iio.team@iio.team</a

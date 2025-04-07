@@ -73,9 +73,12 @@
 	<p>
 		<b> Transportation: </b>
 		The public transportations system is good in Budapest. Route planning is available in Google Maps.
-		Travel passes will be provided by the organizers to everyone. General information about Budapest:
+		Travel passes will be provided by the organizers to everyone. 
+	</p>
+	<p>
+		<b> General information about Budapest: </b>
 		<a href="https://en.wikipedia.org/wiki/Budapest" class="btn-link link-secondary"
 			>Budapest Wikipedia</a
 		>
-	</p>
+		</p>
 </Content>
