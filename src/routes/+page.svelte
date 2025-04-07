@@ -19,7 +19,7 @@
 <Content>
 	<h2 class="text-2xl sm:divider">IIOT International Final 2025 - Budapest, Hungary</h2>
 	<p>
-		The <a href="https://iio.team" class="btn-link link-secondary"
+		The <a href="https://iio.team/" class="btn-link link-secondary"
 			>International Informatics Olympiad in Teams</a
 		>
 		(IIOT) is a prestigious computer programming competition for teams of high school students. The participants
@@ -30,7 +30,7 @@
 		The seven regular member countries (Bulgaria, Egypt, Hungary, Italy, Romania, Syria, USA)
 		participate with at most 3 teams, and also <b
 			>guest teams from any country are invited to take part in the competition onsite or online</b
-		>. See the <a href="{base}/registration" class="btn-link link-secondary">registration</a> page for
+		>. See the <a href="{base}/registration/" class="btn-link link-secondary">registration</a> page for
 		more details.
 	</p>
 	<h2 class="text-2xl sm:divider">About IIOT</h2>

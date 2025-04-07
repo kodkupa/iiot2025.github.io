@@ -13,7 +13,7 @@
 
 <Content>
 	<p class="mx-auto">
-		Deadline for <a href="{base}/registration" class="btn-link link-secondary">registration</a> of teams
+		Deadline for <a href="{base}/registration/" class="btn-link link-secondary">registration</a> of teams
 		and delegation members is April 30.
 	</p>
 	<h2 class="text-2xl sm:divider">Schedule for contest days</h2>
