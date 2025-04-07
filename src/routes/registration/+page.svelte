@@ -36,11 +36,11 @@
 		The <b>deadline for registration is April 30</b>.
 	</p>
 	<p>
-		Team registration form (fill once per team): <a href="#" class="btn-link link-secondary">link</a
+		Team registration form (fill once per team): <a href="https://forms.gle/VxZcQnijx5BdqC5M9" class="btn-link link-secondary">link</a
 		>
 	</p>
 	<p>
-		Committee registration form (fill once per country): <a href="#" class="btn-link link-secondary"
+		Committee registration form (fill once per country): <a href="https://forms.gle/b7WnDJi1RTzv4FrPA" class="btn-link link-secondary"
 			>link</a
 		>
 	</p>
