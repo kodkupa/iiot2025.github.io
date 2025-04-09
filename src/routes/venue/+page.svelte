@@ -11,39 +11,57 @@
 <Hero>Venue</Hero>
 <Content>
 	<h2 class="text-2xl sm:divider">Fazekas (contest venue)</h2>
-	<p>
-		The high school, which is the hungarian leader school of IIOT, is a more than 100-year-old
-		inner-city school. Dozens of international science olympiads and other competitors have
-		graduated from this school over the years. Its mathematics department is world-renowned. The
-		opening and closing ceremonies will be held in the Great Hall (Nagyterem). The IIOT finals will
-		be held in its computer labs.
-		<br />
-		<a href="https://fazekas.hu/" class="btn-link link-secondary">https://fazekas.hu/</a>
-	</p>
+	<div class="float">
+		<img
+			src="{base}/images/fazekas.jpg"
+			alt="fazekas"
+			class="rounded-box w-full sm:w-auto sm:max-h-56 float-right mt-1 sm:ml-4 mb-2 sm:mb-0"
+		/>
+		<p>
+			The high school, which is the hungarian leader school of IIOT, is a more than 100-year-old
+			inner-city school. Dozens of international science olympiads and other competitors have
+			graduated from this school over the years. Its mathematics department is world-renowned.
+		</p>
+		<p>
+			The opening and closing ceremonies will be held in the Great Hall (Nagyterem). The IIOT finals
+			will be held in its computer labs.
+			<a href="https://fazekas.hu/" class="btn-link link-secondary">https://fazekas.hu/</a>
+		</p>
+	</div>
 	<h2 class="text-2xl sm:divider">Hotel</h2>
-	<p>
-		Accommodation will be in the <a
-			href="https://all.accor.com/hotel/2025/index.en.shtml"
-			class="btn-link link-secondary">Ibis Styles Budapest City</a
-		>
-		hotel on the banks of the Danube, near the Grand Boulevard (<a
-			href="https://maps.app.goo.gl/iVVaWYMskifWAHBL6"
-			class="btn-link link-secondary">Google Maps</a
-		>). Double rooms will be available with wifi access.
-	</p>
-	<p>
-		You can start your day with a standard buffet breakfast including Hungarian specialties (06:00 -
-		10:00).
-	</p>
-	<p>Small shops and a variety of restaurants are located near the hotel.</p>
-	<p>
-		The accommodation is within walking distance of the contest venue, but also accessible by public
-		transport (3+1 stops).
-	</p>
+	<div class="float">
+		<img
+			src="{base}/images/hotel.jpg"
+			alt="hotel"
+			class="rounded-box w-full sm:w-auto sm:max-h-60 float-left mt-1 sm:mr-4 mb-2 sm:mb-0"
+		/>
+		<p>
+			Accommodation will be in the
+			<a href="https://all.accor.com/hotel/2025/index.en.shtml" class="btn-link link-secondary"
+				>Ibis Styles Budapest City</a
+			>
+			hotel on the banks of the Danube, near the Grand Boulevard (<a
+				href="https://maps.app.goo.gl/iVVaWYMskifWAHBL6"
+				class="btn-link link-secondary">Google Maps</a
+			>). Double rooms will be available with wifi access.
+		</p>
+		<p>
+			You can start your day with a standard buffet breakfast including Hungarian specialties (06:00
+			- 10:00).
+		</p>
+		<p>Small shops and various restaurants are located near the hotel.</p>
+		<p>
+			The accommodation is within walking distance of the contest venue, but also accessible by
+			public transport (3+1 stops).
+		</p>
+	</div>
+
 	<h2 class="text-2xl sm:divider">Hungary information</h2>
-	<p><b>Currency: </b>Hungarian Forint (HUF)</p>
 	<p>
-		The majority of shops and restaurants accept credit cards. <a
+		<b>Currency: </b>Hungarian Forint (HUF)
+		<br />
+		The majority of shops and restaurants accept credit cards.
+		<a
 			href="https://www.triptobudapest.hu/hungarian-money-guide-how-to-pay-in-budapest/"
 			class="btn-link link-secondary">More information.</a
 		>
@@ -73,12 +91,19 @@
 	<p>
 		<b> Transportation: </b>
 		The public transportations system is good in Budapest. Route planning is available in Google Maps.
-		Travel passes will be provided by the organizers to everyone. 
+		Travel passes will be provided by the organizers to everyone.
 	</p>
 	<p>
 		<b> General information about Budapest: </b>
 		<a href="https://en.wikipedia.org/wiki/Budapest" class="btn-link link-secondary"
 			>Budapest Wikipedia</a
 		>
-		</p>
+	</p>
+	<img src="{base}/images/hungary.jpg" alt="hungary" class="rounded-box w-full mt-2" />
 </Content>
+
+<style>
+	div.float p {
+		margin-bottom: 0.5rem;
+	}
+</style>
