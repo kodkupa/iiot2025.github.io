@@ -15,7 +15,7 @@
 		<img
 			src="{base}/images/fazekas.jpg"
 			alt="fazekas"
-			class="rounded-box w-full sm:w-auto sm:max-h-56 float-right mt-1 sm:ml-4 mb-2 sm:mb-0"
+			class="rounded-box w-full sm:w-auto sm:max-h-56 float-right sm:ml-4 mb-2 sm:mb-0"
 		/>
 		<p>
 			The high school, which is the hungarian leader school of IIOT, is a more than 100-year-old
@@ -33,7 +33,7 @@
 		<img
 			src="{base}/images/hotel.jpg"
 			alt="hotel"
-			class="rounded-box w-full sm:w-auto sm:max-h-60 float-left mt-1 sm:mr-4 mb-2 sm:mb-0"
+			class="rounded-box w-full sm:w-auto sm:max-h-60 float-left sm:mr-4 mb-2 sm:mb-0"
 		/>
 		<p>
 			Accommodation will be in the
