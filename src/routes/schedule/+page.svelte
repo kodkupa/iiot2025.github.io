@@ -12,14 +12,14 @@
 <Hero>Schedule</Hero>
 
 <Content>
-	<p class="mx-auto">
+	<p class="sm:mx-auto">
 		Deadline for <a href="{base}/registration/" class="btn-link link-secondary">registration</a> of teams
 		and delegation members is April 30.
 	</p>
 	<h2 class="text-2xl sm:divider">Schedule for contest days</h2>
-	<p class="text-center">A detailed schedule will be published at least two weeks before the contest.</p>
+	<p class="sm:text-center">A detailed schedule will be published at least two weeks before the contest.</p>
 </Content>
-<div class="max-w-xl w-full flex flex-col text-center gap-4">
+<div class="max-w-xl w-full flex flex-col text-center gap-4 px-4">
 	<Date>
 		<h2 slot="title">May 30 (Friday)</h2>
 		<p slot="date">Arrivals @Hotel (from 15:00). Dinner will be provided.</p>

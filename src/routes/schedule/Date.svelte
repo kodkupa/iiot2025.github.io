@@ -4,7 +4,7 @@
 
 <div class="card card-compact flex flex-col bg-base-200 shadow-md">
 	<div class="card-body gap-2 sm:gap-0">
-		<div class="text-xl font-bold sm:divider mt-0 sm:mt-2 h-auto">
+		<div class="text-xl font-bold divider mt-0 sm:mt-2 h-auto">
 			<span><Calendar /></span>
 			<slot name="title" />
 		</div>
