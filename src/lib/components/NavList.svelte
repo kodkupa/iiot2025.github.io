@@ -19,7 +19,7 @@
 </script>
 
 <li>
-	<a href="{base}/" class:font-bold={$page.route.id === `${base}/`} on:click={closeDrawer}>Home</a>
+	<a href="{base}/" class:font-bold={$page.route.id === `${base || '/'}`} on:click={closeDrawer}>Home</a>
 </li>
 <li>
 	<details bind:open={dropdownOpened} use:clickOutside on:outsideclick={closeDropdown}>
@@ -28,14 +28,14 @@
 			<li>
 				<a
 					href="{base}/environment/"
-					class:font-bold={$page.route.id === `${base}/environment/`}
+					class:font-bold={$page.route.id === `${base}/environment`}
 					on:click={closeDrawer}>Environment</a
 				>
 			</li>
 			<li>
 				<a
 					href="{base}/rules/"
-					class:font-bold={$page.route.id === `${base}/rules/`}
+					class:font-bold={$page.route.id === `${base}/rules`}
 					on:click={closeDrawer}
 				>
 					Rules
@@ -45,7 +45,7 @@
 			<li>
 				<a
 					href="{base}/participants/"
-					class:font-bold={$page.route.id === `${base}/participants/`}
+					class:font-bold={$page.route.id === `${base}/participants`}
 					on:click={closeDrawer}>Participants</a
 				>
 			</li>
@@ -53,14 +53,14 @@
 			<li>
 				<a
 					href="{base}/tasks/"
-					class:font-bold={$page.route.id === `${base}/tasks/`}
+					class:font-bold={$page.route.id === `${base}/tasks`}
 					on:click={closeDrawer}>Tasks</a
 				>
 			</li>
 			<li>
 				<a
 					href="{base}/results/"
-					class:font-bold={$page.route.id === `${base}/results/`}
+					class:font-bold={$page.route.id === `${base}/results`}
 					on:click={closeDrawer}>Results</a
 				>
 			</li>
@@ -70,28 +70,28 @@
 <li>
 	<a
 		href="{base}/venue/"
-		class:font-bold={$page.route.id === `${base}/venue/`}
+		class:font-bold={$page.route.id === `${base}/venue`}
 		on:click={closeDrawer}>Venue</a
 	>
 </li>
 <li>
 	<a
 		href="{base}/schedule/"
-		class:font-bold={$page.route.id === `${base}/schedule/`}
+		class:font-bold={$page.route.id === `${base}/schedule`}
 		on:click={closeDrawer}>Schedule</a
 	>
 </li>
 <li>
 	<a
 		href="{base}/organizers/"
-		class:font-bold={$page.route.id === `${base}/organizers/`}
+		class:font-bold={$page.route.id === `${base}/organizers`}
 		on:click={closeDrawer}>Organizers</a
 	>
 </li>
 <li>
 	<a
 		href="{base}/registration/"
-		class:font-bold={$page.route.id === `${base}/registration/`}
+		class:font-bold={$page.route.id === `${base}/registration`}
 		on:click={closeDrawer}>Registration</a
 	>
 </li>
