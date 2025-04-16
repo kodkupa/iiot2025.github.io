@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import Content from '$lib/components/page/Content.svelte';
 	import Hero from '$lib/components/page/Hero.svelte';
 </script>
@@ -28,7 +29,8 @@
 	<p>
 		Guest countries can participate onsite with one team for a participation fee of 2000 EUR
 		(covering all local costs of 4 team members and a team leader). There is an option for guest
-		countries to participate online for free (see rules about online participation).
+		countries to participate online for free (see <a href="{base}/rules/" class="btn-link link-secondary">
+		rules</a> about online participation).
 	</p>
 	<p>
 		The teams and the committee members should be registered using the following two forms.
@@ -40,7 +42,7 @@
 		>
 	</p>
 	<p>
-		Committee registration form (fill once per country): <a href="https://forms.gle/b7WnDJi1RTzv4FrPA" class="btn-link link-secondary"
+		Committee registration form (fill once per country, only regular members): <a href="https://forms.gle/b7WnDJi1RTzv4FrPA" class="btn-link link-secondary"
 			>link</a
 		>
 	</p>
