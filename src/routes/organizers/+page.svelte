@@ -3,6 +3,7 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 	import { base } from '$app/paths';
+	import SponsorTile from './SponsorTile.svelte';
 </script>
 
 <svelte:head>
@@ -39,20 +40,15 @@
 		>
 	</p>
 	<h2 class="text-2xl sm:divider">Sponsors</h2>
-	<div
-		data-theme="light"
-		class="py-4 px-8 bg-base-100 rounded-box flex gap-8 flex-wrap justify-center items-center"
-	>
-		<img
-			class="max-h-36"
-			src="{base}/images/logo/eem.png"
-			alt="Emberi Erőforrások Minisztériuma logo"
-		/>
-		<img
-			class="max-h-20"
-			src="{base}/images/logo/eet.png"
-			alt="Emberi Erőforrás Támogatáskezelő logo"
-		/>
-		<img class="max-h-20" src="{base}/images/logo/ntp.png" alt="Nemzeti Tehetség Program logo" />
+	<div class="flex flex-wrap justify-center items-center mx-auto gap-4 mt-4 rounded-box">
+		<SponsorTile href="https://www.janestreet.com/" logo="janestreet.svg" alt="Jane Street" height={12} />
+		<div class="flex gap-4">
+			<SponsorTile href="https://atomeromu.mvm.hu/" logo="mvmpaks.png" alt="MVM Paksi Atomerőmű" height={9} />
+			<SponsorTile href="https://www.efaktorzrt.hu/" logo="efaktor.png" alt="e-Faktor Zrt" height={9} />
+		</div>
+		<div class="flex gap-4">
+			<SponsorTile href="https://kormany.hu/kulturalis-es-innovacios-miniszterium" logo="KIM.png" alt="Kulturális és Innovációs Minisztérium" height={5} />
+			<SponsorTile href="https://nemzetitehetsegprogram.hu/" logo="NTP.png" alt="Nemzeti Tehetség Program" height={5} />
+		</div>
 	</div>
 </Content>
