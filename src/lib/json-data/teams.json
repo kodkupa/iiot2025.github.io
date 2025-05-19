@@ -437,6 +437,105 @@
                     "role": "Contestant"
                 }
             ]
+        },
+        {
+            "name": "Yal 3sfoooor",
+            "school": "Distinction and Creativity Agency (DCA)",
+            "country": "Syria",
+            "members": [
+                {
+                    "firstName": "Haidara",
+                    "lastName": "Almakdid",
+                    "picture": "Haidara_Almakdid.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Hadi",
+                    "lastName": "Takla",
+                    "picture": "Hadi_Takla.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "MOHAMMAD DEEB",
+                    "lastName": "ALSALEH",
+                    "picture": "MOHAMMAD_DEEB_ALSALEH.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "ABDULLAH",
+                    "lastName": "ABDULLAH",
+                    "picture": "ABDULLAH_ABDULLAH.jpg",
+                    "role": "Contestant"
+                }
+            ]
+        },
+        {
+            "name": "Binary Brigades V2",
+            "school": "Distinction and Creativity Agency (DCA)",
+            "country": "Syria",
+            "members": [
+                {
+                    "firstName": "Wisam",
+                    "lastName": "Alnasr",
+                    "picture": "Wisam_Alnasr.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Abdalaziz",
+                    "lastName": "Marie Alshami",
+                    "picture": "Abdalaziz_Marie_Alshami.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Saad",
+                    "lastName": "Alkhalaf",
+                    "picture": "Saad_Alkhalaf.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Malek",
+                    "lastName": "Jumaa Haj Issa",
+                    "picture": "Malek_Jumaa_Haj_Issa.jpg",
+                    "role": "Contestant"
+                }
+            ]
+        },
+        {
+            "name": "Nem a Debreceni \"Fazekas\"",
+            "school": "Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gyakorló Gimnázium",
+            "country": "Hungary",
+            "members": [
+                {
+                    "firstName": "Dániel",
+                    "lastName": "Czanik",
+                    "picture": "Daniel_Czanik.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Pál",
+                    "lastName": "Czanik",
+                    "picture": "Pal_Czanik.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Mirkó",
+                    "lastName": "Juhász-Molnár",
+                    "picture": "Mirko_Juhasz-Molnar.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Erik",
+                    "lastName": "Juhász-Molnár",
+                    "picture": "Erik_Juhasz-Molnar.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Mariann",
+                    "lastName": "Sásdi",
+                    "picture": "Mariann_Sasdi.jpg",
+                    "role": "Leader"
+                }
+            ]
         }
     ],
     "guest": [
@@ -565,7 +664,7 @@
                 {
                     "firstName": "Quang Linh",
                     "lastName": "Dao",
-                    "picture": "Dao_Quang_Linh.jpg",
+                    "picture": "Quang_Linh_Dao.jpg",
                     "role": "Contestant"
                 },
                 {
@@ -652,6 +751,37 @@
                     "firstName": "Zalán András",
                     "lastName": "Szörényi",
                     "picture": "Zalan_Andras_Szorenyi.png",
+                    "role": "Contestant"
+                }
+            ]
+        },
+        {
+            "name": "deranged beings play deranged games",
+            "school": "Distinction and Creativity Agency (DCA)",
+            "country": "Syria",
+            "members": [
+                {
+                    "firstName": "Khaled",
+                    "lastName": "Kunbargi",
+                    "picture": "Khaled_Kunbargi.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Bishr",
+                    "lastName": "Joukhadar",
+                    "picture": "Bishr_Joukhadar.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "hadi",
+                    "lastName": "suleiman",
+                    "picture": "hadi_suleiman.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Sima",
+                    "lastName": "Sandouk",
+                    "picture": "Sima_Sandouk.jpg",
                     "role": "Contestant"
                 }
             ]
