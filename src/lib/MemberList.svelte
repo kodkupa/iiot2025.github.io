@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MemberCard from './MemberCard.svelte';
+	import MemberCard from '$lib/MemberCard.svelte';
 
 	export let teams;
 </script>
