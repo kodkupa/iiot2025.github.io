@@ -48,7 +48,7 @@
 		</div>
 		<div class="flex gap-4">
 			<SponsorTile href="https://kormany.hu/kulturalis-es-innovacios-miniszterium" logo="KIM.png" alt="Kulturális és Innovációs Minisztérium" height={5} />
-			<SponsorTile href="https://nemzetitehetsegprogram.hu/" logo="NTP.png" alt="Nemzeti Tehetség Program" height={5} />
+			<SponsorTile href="https://nemzetitehetsegprogram.hu/" logo="ntp.png" alt="Nemzeti Tehetség Program" height={5} />
 		</div>
 	</div>
 </Content>
