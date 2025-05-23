@@ -2,7 +2,6 @@
 	import OrgCard from './OrgCard.svelte';
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
-	import { base } from '$app/paths';
 	import SponsorTile from './SponsorTile.svelte';
 </script>
 

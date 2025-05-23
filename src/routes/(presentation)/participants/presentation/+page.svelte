@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import MemberCard from '$lib/MemberCard.svelte';
+	import MemberCard from '$lib/components/MemberCard.svelte';
 	import teams from '$lib/json-data/teams.json';
 	import { onMount } from 'svelte';
 

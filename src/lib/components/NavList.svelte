@@ -41,6 +41,17 @@
 					Rules
 				</a>
 			</li>
+			<li>
+				<a
+					href="{base}/documents/placeholder.pdf"
+					target="_blank"
+					on:click={closeDrawer}
+					class="gap-8 min-w-max"
+				>
+					Placeholder
+					<i class="fa-solid fa-file-pdf ml-auto"></i>
+				</a>
+			</li>
 			<li />
 			<li>
 				<a

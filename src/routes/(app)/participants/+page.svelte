@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import Hero from '$lib/components/page/Hero.svelte';
 	import { regular, guest } from '$lib/json-data/teams.json';
-	import MemberList from '$lib/MemberList.svelte';
+	import MemberList from '$lib/components/MemberList.svelte';
 </script>
 
 <svelte:head>
