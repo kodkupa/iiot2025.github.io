@@ -139,6 +139,12 @@
                     "lastName": "Tran",
                     "picture": "David_Tran.jpg",
                     "role": "Contestant"
+                },
+                {
+                    "firstName": "Gyula",
+                    "lastName": "Simon",
+                    "picture": "Gyula_Simon.jpg",
+                    "role": "Leader"
                 }
             ]
         },
