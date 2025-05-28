@@ -614,6 +614,43 @@
             ]
         },
         {
+            "name": "Algoria",
+            "school": "MathHome of Tehran",
+            "country": "Iran",
+            "members": [
+                {
+                    "firstName": "Mohammadsam",
+                    "lastName": "Ansaripoor",
+                    "picture": "Mohammadsam_Ansaripoor.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Mohammad",
+                    "lastName": "Shayan",
+                    "picture": "Mohammad_Shayan.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Hamed",
+                    "lastName": "Ghaffari",
+                    "picture": "Hamed_Ghaffari.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Bahamin",
+                    "lastName": "Shafaghi",
+                    "picture": "Bahamin_Shafaghi.jpg",
+                    "role": "Contestant"
+                },
+                {
+                    "firstName": "Mostafa",
+                    "lastName": "Noori Shahbolaghi",
+                    "picture": "Mostafa_Noori.jpg",
+                    "role": "Leader"
+                }
+            ]
+        },
+        {
             "name": "test",
             "school": "Israel's Computer Science Team",
             "country": "Israel",
