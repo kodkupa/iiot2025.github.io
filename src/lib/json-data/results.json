@@ -228,7 +228,7 @@
     "guest": [
         {
             "Rank": 1,
-            "Award": "gold",
+            "Award": "honorary gold",
             "Team": "Vietnam Team",
             "School": " Institute of Innovation Research and Attribute Verification (RIVA)",
             "Country": "Vietnam",
@@ -244,7 +244,7 @@
         },
         {
             "Rank": 2,
-            "Award": "silver",
+            "Award": "honorary silver",
             "Team": "test ",
             "School": "Israel's computer science team",
             "Country": "Israel",
@@ -260,7 +260,7 @@
         },
         {
             "Rank": 3,
-            "Award": "silver",
+            "Award": "honorary silver",
             "Team": "Algoria ",
             "School": "MathHome of Tehran",
             "Country": "Iran",
@@ -276,7 +276,7 @@
         },
         {
             "Rank": 4,
-            "Award": "bronze",
+            "Award": "honorary bronze",
             "Team": "deranged beings play deranged games ",
             "School": "Distinction and Creativity Agency (DCA)",
             "Country": "Syria",
@@ -292,7 +292,7 @@
         },
         {
             "Rank": 5,
-            "Award": "bronze",
+            "Award": "honorary bronze",
             "Team": 42,
             "School": " Földes Ferenc Gimnázium",
             "Country": "Hungary",
