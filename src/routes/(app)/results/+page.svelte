@@ -14,7 +14,7 @@
 	<title>Results</title>
 </svelte:head>
 
-<Hero>IIOT Budapest Final 2025 Results</Hero>
+<Hero>IIOT 2025 Final Results</Hero>
 
 <div class="w-full grow max-w-7xl px-4 gap-8 py-8 flex flex-col">
 	<div class="gap-6 w-full flex-col flex md:hidden">
