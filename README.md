@@ -51,6 +51,23 @@ The schedule table is downloaded as a comma separated csv file from google sheet
 The documents that are linked on the site such as the *privacy_policy.pdf* etc. are in the `static/documents` folder, replace them there if needed.
 
 
+## Update Results
+
+The data for the results pages is stored in the `results.json` file in the `src/lib/json-data` folder.
+
+Create the results table in Excel, you can find an example file at [static/excel/results.xlsx](static/excel/results.xlsx) with the correct format. 
+
+If you want to display the awarded medals, create a column named `Award`. There are three available values in this column: `gold`, `silver` and `bronze`. If the team didn't get any award, leave the corresponding cell empty.
+
+The rest of the columns header names should match the example format.
+
+After that, use an [Excel to JSON converter](https://tableconvert.com/excel-to-json) to convert it into an **Array of Object*** format. 
+
+*(On the linked site, choose the *Array of Object* option for the JSON format.)
+
+(You can also check the data in the `results.json` file for the required final JSON format.)
+
+
 ## Authors
 
 | Github | Email |
