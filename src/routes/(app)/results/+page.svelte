@@ -8,6 +8,8 @@
 	import ResultCard from './ResultCard.svelte';
 
 	export let data;
+
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -58,4 +60,14 @@
 			headers={data.headers}
 		/>
 	{/if}
+
+	<div>
+		<h2 class="text-3xl font-bold my-4 text-center">Complete Scoreboard</h2>
+		<p class="text-lg text-center">
+			For more detailed results data, you can see the CMS ranking <a
+				href="{base}/ranking/"
+				class="btn-link link-secondary">here</a
+			>.
+		</p>
+	</div>
 </div>
